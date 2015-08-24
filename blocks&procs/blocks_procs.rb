@@ -99,3 +99,5 @@ end
 alwysFalse = Proc.new do  |justIgnoreMe|
   false
 end
+
+puts untilFalse([5], arrayOfSquares).inspect
