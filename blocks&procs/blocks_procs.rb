@@ -107,3 +107,8 @@ puts untilFalse('I am just following examples!', alwysFalse)
 # You cancreate a proc in a method and then return it.
 # The example below takes two procs and returns the new proc which
 # when called, calls the first proc and passes the result into the second proc.
+
+def compose proc1, proc2
+  Proc.new do |x|
+    proc2.call(proc1.call(x))
+  end
