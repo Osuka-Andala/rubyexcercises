@@ -103,3 +103,7 @@ end
 puts untilFalse([5], arrayOfSquares).inspect #inspect works almost the same as to_s
 puts untilFalse([81], arrayOfSquares).inspect
 puts untilFalse('I am just following examples!', alwysFalse)
+
+# You cancreate a proc in a method and then return it.
+# The example below takes two procs and returns the new proc which
+# when called, calls the first proc and passes the result into the second proc.
