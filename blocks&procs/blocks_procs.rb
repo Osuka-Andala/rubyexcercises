@@ -171,7 +171,9 @@ end
 def profile blockDescription, &block
   startTime = Time.now
 
-  block.call = Time.now - startTime
+  block.call
+  
+  duration = Time.now - startTime
 
   puts blockDescription + ': '+duration.to_s+' seconds'
 
