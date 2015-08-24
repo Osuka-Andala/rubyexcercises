@@ -116,3 +116,7 @@ def compose proc1, proc2
   squareIt = Proc.new do |x|
     x * x
   end
+
+  doubleIt = Proc.new do |x|
+    x + x
+  end
