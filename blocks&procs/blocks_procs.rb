@@ -67,3 +67,11 @@ doTwice greyjoy
 
 # We can also call a proc on an object.
 # Adding in loops, in this case, a while loop.
+
+def untilFalse firstInput, someProc
+  input = firstInput
+  output = firstInput
+
+  
+
+end
