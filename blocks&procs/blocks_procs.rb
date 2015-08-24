@@ -176,3 +176,9 @@ def profile blockDescription, &block
   puts blockDescription + ': '+duration.to_s+' seconds'
 
 end
+
+profile '25000 doublings' do
+  number = 1
+
+  
+end
