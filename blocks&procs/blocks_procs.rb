@@ -93,5 +93,9 @@ arrayOfSquares = Proc.new do |array|
 
     array.push lastNumber-1  #...followed by the next smaller number
   end
-  
+
+end
+
+alwysFalse = Proc.new do  |justIgnoreMe|
+  false
 end
