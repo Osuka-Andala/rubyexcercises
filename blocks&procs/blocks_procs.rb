@@ -129,3 +129,12 @@ end
   puts squareThenDouble.call(7)
   puts doubleThenSquare.call(17)
   puts squareThenDouble.call(76)
+
+# Passing blocks into Methods
+
+class array
+  def eachEven(&wasABlock_nowAProc)
+    #Start with 'true' value because arrays start with 0 which is even
+
+    isEven = true
+  end
