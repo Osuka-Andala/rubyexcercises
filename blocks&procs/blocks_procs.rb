@@ -78,4 +78,11 @@ def untilFalse firstInput, someProc
 
   end
 
+ input
+
+end
+
+arrayOfSquares = Proc.new do |array|
+  lastNumber = array.last
+  
 end
