@@ -141,7 +141,13 @@ class array
     self.each do |object|
       if isEven
         wasABlock_nowAProc.call object
-
       end
+
+      isEven = (not isEven) #Loop from odd to even and viceversa
     end
   end
+end
+
+['peach', 'blueberry', 'apple', 'walnut', 'mango', 'apricot'].eachEven do |fruit|
+  puts 'Yoooh! I just adore '+fruit' pizza, don\'t you?'
+end
