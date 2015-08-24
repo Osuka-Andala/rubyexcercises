@@ -36,3 +36,5 @@ end
 
 thisIsAMethod saySomething
 thisIsAMethod sayOtherThing
+
+# You can write mehods which will determine how many times, or even if to call the proc.
