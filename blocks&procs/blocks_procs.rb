@@ -100,6 +100,6 @@ alwysFalse = Proc.new do  |justIgnoreMe|
   false
 end
 
-puts untilFalse([5], arrayOfSquares).inspect
+puts untilFalse([5], arrayOfSquares).inspect #inspect works almost the same as to_s
 puts untilFalse([81], arrayOfSquares).inspect
 puts untilFalse('I am just following examples!', alwysFalse)
