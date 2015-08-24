@@ -180,5 +180,9 @@ end
 profile '25000 doublings' do
   number = 1
 
-  
+  25000.times do
+    number = number + number
+  end
+
+  puts number.to_s.length .to_s+' digits'
 end
