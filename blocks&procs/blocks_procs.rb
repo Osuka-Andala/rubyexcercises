@@ -84,5 +84,14 @@ end
 
 arrayOfSquares = Proc.new do |array|
   lastNumber = array.last
+  if lastNumber <= 0
+    false
+  else
+    array.pop #Take out the last number
+
+    array.push lastNumber*lastNumber #...and replace it with its square
+
+    array.push lastNumber-1  #...followed by the next smaller number
+  end
   
 end
