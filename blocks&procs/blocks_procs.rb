@@ -64,3 +64,6 @@ maybeDo stark
 maybeDo greyjoy
 doTwice stark
 doTwice greyjoy
+
+# We can also call a proc on an object.
+# Adding in loops, in this case, a while loop.
