@@ -161,3 +161,9 @@ end
 # You can pass a block into any method this way, though many methods will just ignore the block.
 # In order to make your method not ignore the block, but grab it and turn it into a proc,
 # put the name of the proc at the end of your method's parameter list, preceded by an ampersand (&)
+
+
+# I remember one time I wanted to be able to time how long different sections of a program were taking.
+# (This is also known as profiling the code.)
+# So I wrote a method which takes the time before running the code,
+# then it runs it, then it takes the time again at the end and figures out the difference. 
