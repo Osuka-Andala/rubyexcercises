@@ -137,4 +137,8 @@ class array
     #Start with 'true' value because arrays start with 0 which is even
 
     isEven = true
+
+    self.each do |object|
+      
+    end
   end
