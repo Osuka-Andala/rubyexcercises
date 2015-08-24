@@ -45,3 +45,9 @@ def maybeDo newProc
   end
 
 end
+
+def doTwice newProc
+  newProc.call
+  newProc.call
+
+end
