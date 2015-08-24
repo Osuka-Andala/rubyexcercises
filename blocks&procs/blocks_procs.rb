@@ -122,4 +122,7 @@ def compose proc1, proc2
   end
 
   doubleThenSquare = compose doubleIt, squareIt
-  squareThenSquare = compose squareIt, doubleIt
+  squareThenDouble = compose squareIt, doubleIt
+
+  puts doubleThenSquare.call(7)
+  puts squareThenDouble.call(7)
