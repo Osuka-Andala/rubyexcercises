@@ -132,7 +132,7 @@ end
 
 # Passing blocks into Methods
 
-class array
+class Array
   def eachEven(&wasABlock_nowAProc)
     #Start with 'true' value because arrays start with 0 which is even
 
@@ -149,5 +149,10 @@ class array
 end
 
 ['peach', 'blueberry', 'apple', 'walnut', 'mango', 'apricot'].eachEven do |fruit|
-  puts 'Yoooh! I just adore '+fruit' pizza, don\'t you?'
+  puts 'Yoooh! I just adore '+fruit+' pizza, don\'t you?'
+end
+
+[1, 2, 3, 4, 5, 6].eachEven do |oddBall|
+  puts oddBall.to_s + ' is NOT an even number'
+
 end
