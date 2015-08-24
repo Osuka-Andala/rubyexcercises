@@ -62,3 +62,5 @@ end
 
 maybeDo stark
 maybeDo greyjoy
+doTwice stark
+doTwice greyjoy
