@@ -120,3 +120,6 @@ def compose proc1, proc2
   doubleIt = Proc.new do |x|
     x + x
   end
+
+  doubleThenSquare = compose doubleIt, squareIt
+  squareThenSquare = compose squareIt, doubleIt
