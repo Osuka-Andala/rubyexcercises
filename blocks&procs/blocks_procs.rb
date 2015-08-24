@@ -33,3 +33,6 @@ end
 sayOtherThing = Proc.new do
   puts 'Valar Dhoharis'
 end
+
+thisIsAMethod saySomething
+thisIsAMethod sayOtherThing
