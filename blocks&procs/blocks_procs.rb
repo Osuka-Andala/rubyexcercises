@@ -72,6 +72,10 @@ def untilFalse firstInput, someProc
   input = firstInput
   output = firstInput
 
-  
+  while output
+    input = output
+    output = someProc.call input
+
+  end
 
 end
