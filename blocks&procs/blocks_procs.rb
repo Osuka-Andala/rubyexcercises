@@ -13,3 +13,8 @@ end
 iWantToGo.call 'Salar de Uyuni'
 iWantToGo.call 'Ayen Tepui'
 iWantToGo.call "The Great Barrier Rief"
+
+
+# You cant pass methods into other methods but you can pass procs into methods
+# Methods cant return other methods but they can return procs
+# This is because procs are objects, procs are not.
