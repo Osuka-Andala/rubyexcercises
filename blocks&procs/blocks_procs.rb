@@ -27,7 +27,7 @@ def thisIsAMethod myProc
 end
 
 saySomething = Proc.new do
-  puts 'Winter is coming'
+  puts 'Valar Molghulis'
 end
 
 sayOtherThing = Proc.new do
@@ -50,4 +50,12 @@ def doTwice newProc
   newProc.call
   newProc.call
 
+end
+
+stark = Proc.new do
+  puts 'Winter is coming!'
+end
+
+greyjoy = Proc.new do
+  puts 'We do not sow!'
 end
