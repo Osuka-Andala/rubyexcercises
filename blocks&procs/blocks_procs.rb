@@ -29,3 +29,7 @@ end
 saySomething = Proc.new do
   puts 'Winter is coming'
 end
+
+sayOtherThing = Proc.new do
+  puts 'Valar Dhoharis'
+end
