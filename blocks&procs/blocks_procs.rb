@@ -101,3 +101,5 @@ alwysFalse = Proc.new do  |justIgnoreMe|
 end
 
 puts untilFalse([5], arrayOfSquares).inspect
+puts untilFalse([81], arrayOfSquares).inspect
+puts untilFalse('I am just following examples!', alwysFalse)
