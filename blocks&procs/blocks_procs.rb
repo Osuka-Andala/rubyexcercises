@@ -112,6 +112,7 @@ def compose proc1, proc2
   Proc.new do |x|
     proc2.call(proc1.call(x))
   end
+end
 
   squareIt = Proc.new do |x|
     x * x
@@ -126,3 +127,5 @@ def compose proc1, proc2
 
   puts doubleThenSquare.call(7)
   puts squareThenDouble.call(7)
+  puts doubleThenSquare.call(17)
+  puts squareThenDouble.call(76)
