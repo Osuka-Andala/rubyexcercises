@@ -20,7 +20,7 @@ iWantToGo.call "The Great Barrier Rief"
 # This is because procs are objects, procs are not.
 
 def thisIsAMethod myProc
-  puts 'SILENCE!!! I have an announcemenyt'
+  puts 'SILENCE!!! I have an announcement'
   myProc.call
   puts 'As you were!'
 
