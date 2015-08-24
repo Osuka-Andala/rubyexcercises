@@ -139,6 +139,9 @@ class array
     isEven = true
 
     self.each do |object|
-      
+      if isEven
+        wasABlock_nowAProc.call object
+
+      end
     end
   end
