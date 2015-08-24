@@ -166,4 +166,13 @@ end
 # I remember one time I wanted to be able to time how long different sections of a program were taking.
 # (This is also known as profiling the code.)
 # So I wrote a method which takes the time before running the code,
-# then it runs it, then it takes the time again at the end and figures out the difference. 
+# then it runs it, then it takes the time again at the end and figures out the difference.
+
+def profile blockDescription, &block
+  startTime = Time.now
+
+  block.call = Time.now - startTime
+
+  puts blockDescription + ': '+duration.to_s+' seconds'
+
+end
