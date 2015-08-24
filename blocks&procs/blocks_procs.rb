@@ -186,3 +186,9 @@ profile '25000 doublings' do
 
   puts number.to_s.length .to_s+' digits'
 end
+
+profile 'count to a million' do
+  number = 0
+
+  1000000.times do
+end
