@@ -110,7 +110,7 @@ puts untilFalse('I am just following examples!', alwysFalse)
 
 def compose proc1, proc2
   Proc.new do |x|
-    proc2.call(proc1.call(x))
+    proc2.call(proc1.call(x)) #put proc1 into parenthesis inorder for it to be done first
   end
 end
 
