@@ -59,3 +59,6 @@ end
 greyjoy = Proc.new do
   puts 'We do not sow!'
 end
+
+maybeDo stark
+maybeDo greyjoy
