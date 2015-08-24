@@ -156,3 +156,8 @@ end
   puts oddBall.to_s + ' is NOT an even number'
 
 end
+
+# So to pass in a block to eachEven, all we had to do was stick the block after the method.
+# You can pass a block into any method this way, though many methods will just ignore the block.
+# In order to make your method not ignore the block, but grab it and turn it into a proc,
+# put the name of the proc at the end of your method's parameter list, preceded by an ampersand (&)
