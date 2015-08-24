@@ -25,3 +25,7 @@ def thisIsAMethod myProc
   puts 'As you were!'
 
 end
+
+saySomething = Proc.new do
+  puts 'Winter is coming'
+end
