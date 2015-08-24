@@ -191,4 +191,6 @@ profile 'count to a million' do
   number = 0
 
   1000000.times do
+    number = number + 1
+  end
 end
